@@ -1,0 +1,62 @@
+.header {
+    display: grid;
+    background-color: lavender;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.main {
+    display: grid;
+    background-color: lemonchiffon;
+    grid-template-columns: 1fr 1fr 30%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 200px;
+    text-align: center;
+    grid-gap: 1rem;
+}
+
+.aside {
+    background-color: rgb(146, 209, 185);
+    grid-area: 1/3/5/4;
+    height: 200px;
+}
+
+.footer {
+    display: grid;
+    background-color: lavender;
+    grid-template-columns: 150px 150px 150px 150px;
+    height: 100px;
+    grid-gap: 2rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section {
+    display: grid;
+    background-color: white;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.yet {
+    grid-area: 1/1/2/3;
+}
+
+.yet1 {
+    grid-area: 3/1/4/2;
+    background-color: rgb(226, 191, 146);
+    align-items: center;
+}
+
+.yet2 {
+    grid-area: 3/2/4/3;
+    background-color: rgb(226, 191, 146);
+}
+
+.yet3 {
+    grid-area: 4/1/5/3;
+    background-color: rgb(226, 191, 146);
+}
