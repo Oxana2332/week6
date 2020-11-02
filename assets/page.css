@@ -3,7 +3,16 @@
 }
 
 #logo {
-    width: 100px;
+    width: 160px;
+    height: 41px;
+    left: 191px;
+    top: 56px;
+    margin-left: 30px;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
 }
 
 .nav {
@@ -15,8 +24,9 @@
     color: #1F1534;
     opacity: 0.5;
     text-decoration: none;
-    margin-right: 30px;
+    margin-left: 40px;
 }
+
 
 .navhome {
     font-family: Mulish;
@@ -26,15 +36,14 @@
     line-height: 23px;
     color: #1F1534;
     text-decoration: none;
-    margin-right: 30px;
-    margin-left: 700px;
+    margin-left: 512px;
 }
 
 #main {
-    margin: 30px;
     display: grid;
     grid-template-columns: 1fr 60%;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-left: 30px;
 }
 
 #H {
@@ -88,6 +97,7 @@
     height: 60px;
     left: 190px;
     top: 561px;
+    align-content: center;
 }
 
 .ourservic {
@@ -143,13 +153,13 @@
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-
     height: 60px;
     color: #458FF6;
     mix-blend-mode: normal;
     border: 1.4px solid #458FF6;
     box-sizing: border-box;
     border-radius: 55px;
+    background-color: #FFFFFF;
 }
 
 .button2 {
@@ -164,6 +174,7 @@
     border: 1.4px solid #458FF6;
     box-sizing: border-box;
     border-radius: 55px;
+    background-color: #FFFFFF;
 }
 
 #providers {
@@ -231,6 +242,7 @@
     border: 1.4px solid #458FF6;
     box-sizing: border-box;
     border-radius: 55px;
+    background-color: #FFFFFF;
 }
 
 .download {
@@ -351,7 +363,7 @@
 .back {
     display: grid;
     grid-template-rows: 100px 200px 70px;
-    grid-template-columns: 350px 100px 100px 150px 100px;
+    grid-template-columns: 350px 120px 100px 150px 100px;
     justify-content: space-around;
     margin-top: 70px;
     background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
